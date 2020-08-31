@@ -19,5 +19,21 @@ $ sw_vers
 ProductName:	macOS
 ProductVersion:	11.0
 BuildVersion:	20A5354i
+```
 
+
+## TypeScript version
+
+```zsh
+$ npx tsc -V
+Version 4.0.2
+```
+
+## ESLint + Prettier
+```zsh
+$ ./node_modules/.bin/eslint --version
+v7.7.0
+
+$ ./node_modules/.bin/prettier --version
+2.1.1
 ```
