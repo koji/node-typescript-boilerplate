@@ -12,6 +12,7 @@
     "lint:fx": "eslint src/**/*.ts --fix",
     "lint": "eslint src/**/*.ts",
     "start": "tsc && node dist/index.js",
+    "server": "ts-node src/server.ts",
     "tsc": "tsc",
     "tscCheck": "tsc --noEmit"
   },
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/koji/typescript-node-boilerplate#readme",
   "devDependencies": {
+    "@types/express": "^4.17.8",
     "@types/node": "^14.6.2",
     "@typescript-eslint/eslint-plugin": "^3.10.1",
     "@typescript-eslint/parser": "^3.10.1",
@@ -49,5 +51,8 @@
     "*.{js,ts}": "eslint --cache --fix",
     "*.ts": "tsc --noEmit",
     "*.{js,ts,json}": "prettier --write"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
