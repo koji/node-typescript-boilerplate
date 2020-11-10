@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist/*",
-    "dev:watch": "ts-node-dev --respwn src/index.ts",
+    "dev:watch": "ts-node-dev --respawn src/index.ts",
     "dev": "ts-node src/index.ts",
     "format": "prettier --write 'src/**/*.{js,ts,json}'",
     "lint:all": "yarn lint && yarn tscCheck",
