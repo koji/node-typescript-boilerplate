@@ -5,7 +5,7 @@ The followings are details of this boilerplate.
 blog post for this
 
 ## npm-script
-The commands are orderd alphabetically.
+The commands are ordered alphabetically.
 #### `yarn clean`
 This command will clean up dist folder that is for build files(.js files)
 ```zsh
