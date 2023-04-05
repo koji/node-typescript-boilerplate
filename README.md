@@ -103,6 +103,9 @@ $ npm -v
 $ yarn -v
 1.22.19
 
+$ pnpm -v
+8.1.1
+
 $ uname -a
 Darwin WS-FVFGW0FRQ05N 22.3.0 Darwin Kernel Version 22.3.0: Mon Jan 30 20:39:35 PST 2023; root:xnu-8792.81.3~2/RELEASE_ARM64_T8103 arm64
 
